@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #clock {
+            border: 3px solid black;
+            height: 50px;
+            width: 100vw;
+            margin: auto;
+            padding: auto;
+            font-weight: bold;
+            background-color: blanchedalmond;
+            border-radius: px;
+            text-align: center;
+            shape-outside: circle();
+        }
+    </style>
+</head>
+
+<body>
+    <div id="clock"><span id="time"></span>
+    </div>
+    <div id="log">
+        login page
+    </div>
+    <script>
+        setInterval(updatetime);
+        function updatetime() {
+            time.innerHTML = new Date(2021,12,18);
+        }
+        
+        function login()
+        {
+            let log = document.getElementById('log');
+
+        }
+        setTimeout(login,5000);
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOST AND FOUND</title>
+    <style>
+        #body {
+            background-color: rgb(230, 230, 150);
+        }
+
+        .navbar {
+            background-color: black;
+            border: 5px solid black;
+            position: sticky;
+            top: 0px;
+
+        }
+
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: inherit;
+
+        }
+
+        .navbar a:hover {
+            color: red;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: auto;
+        }
+
+        #lofo {
+            font-size: 50px;
+            font-weight: bold;
+            font-family: cursive;
+            text-align: center;
+            background-color: beige;
+
+        }
+
+        img {
+            position: relative;
+            top: 60px;
+            float: right;
+            width: 700px;
+        }
+
+        .wel {
+            font-weight: bold;
+            font-size: 30px;
+            padding: inherit;
+            margin: 50px;
+            float: left;
+            clear: left;
+        }
+
+        .para {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .search {
+            float: right;
+
+        }
+
+        .box {
+            display: inline-block;
+            border: 5px solid rgb(12, 41, 12);
+            margin: 50px;
+            font-weight: bold;
+            padding: auto;
+            background-color:black;
+            color: white;
+            height: 50px;
+            width: 200px;
+            text-decoration: none;
+            font-size: 22px;
+            
+        }
+
+        #container a:hover {
+            background-color: rgb(141, 196, 141);
+
+        }
+
+        
+
+        .pics {
+            display: flex;
+            margin: 20px;
+        }
+
+        .pic1 {
+            height: 200px;
+            width: 300px;
+            border-radius: 200px;
+            margin: auto;
+            float: left;
+        }
+
+        .p {
+            font-size: 30px;
+            margin: auto;
+        }
+
+        .h{
+            margin: auto;
+        }
+
+        .footer
+        {
+            background-color: black;
+            border: 5px solid black;
+           
+        }
+        .footer a{
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer {
+            position: absolute;
+            top: 1200px;
+            background-color: black;
+            color: white;
+            width: 100%;
+
+        }
+        #lost{
+            text-align: center;
+        }
+        #found{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <header id="lofo">LOST AND FOUND</header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="nav.html">HOME</li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">HOW DOES IT WORK</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="#" id="log">LOGIN</a></li>
+            <div class="search">SEARCH</div>
+            <div class="search"><input type="text" name="search" placeholder="search"></input></div>
+        </ul>
+    </nav>
+    <div class="wel">WELCOME TO LOST AND FOUND</div>
+
+    <img src="https://www.lostings.com/public/assets/images/image01.png">
+    <div class="para">Lostings is an entirely new intelligent lost and found matching system & inventory management
+        software all in one. We have taken a different approach than the traditional lost & founds by creating a
+        multi-level platform for businesses and individuals to submit lost or found items into our matching system. Once
+        the lost or found items are submitted and placed into our matching system, we intelligently help find and locate
+        the misplaced goods and who has them.</div>
+
+    <div id="container">
+
+        <a href="lost.html" id="lost" class="box">LOST ITEM</a>
+        <a href="found.html" id="found" class="box">FOUND ITEM</a>
+
+    </div>
+    <span class="pics">
+        <img class="pic1"
+            src="https://assets.fellowes.com/documents/IdeaCenter/us/en/school/organization/signs/lost-and-found-poster/preview.png">
+        <h1 class="h">EASE OF USE</h1>
+        <br>
+        <p class="p">Submitting lost or found items is simple and hassle free. Input the required information and let
+            our system go to work.</p>
+    </span>
+    <span class="pics">
+        <img class="pic1"
+            src="https://cdn3.vectorstock.com/i/1000x1000/28/92/man-returning-lost-wallet-to-lost-and-found-vector-34502892.jpg">
+        <h1 class="h">OUT REACH</h1>
+        <br>
+        <p class="p">With our multi-level platform, your lost or found submission will automatically be sent to local
+            businesses and individuals.</p>
+    </span>
+    <div class="footer">
+        <a href="login.html">LOGIN</a>
+    </div>
+    <div class="footer">
+        <h3>CONTACT INFO</h4>
+            <h3>TEL: 9389748428</h3>
+            <h3>EMAIL: vaishnavi.2024it1009@kiet.edu</h3>
+            <h3>TEL: 9389748428</h3>
+            <h3>EMAIL: vaishnavi.2024it1009@kiet.edu</h3>
+    </div>
+    <script>
+        function login()
+        {
+            let con=confirm("LOGIN");
+            if(con==true)
+            {
+                let log=document.getElementById('log');
+            }
+        }
+        setTimeout(login,5000);
+    </script>
+
+</body>
+ 
+</html>

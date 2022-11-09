@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(230, 230, 150);
+}
+
+#logo {
+    height: 80px;
+    width: 120px;
+    border-radius: 80px;
+}
+
+#title {
+    height: 70px;
+    margin: 20px;
+}
+
+#name {
+    margin-inline: 250px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#navbar {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#navbar li a {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar li a:hover {
+    color: red;
+}
+
+#intro {
+    color: white;
+    display: flex;
+    text-decoration-color: beige;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+.div {
+    column-gap: 50px;
+}
+
+#mission {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.card {
+    display: inline-block;
+    color: chartreuse;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    border: 3px rgb(209, 26, 26) solid;
+    border-radius: 80px;
+    height: 250px;
+    width: 300px;
+    margin: 50px;
+}
+
+#card1 {
+    text-align: center;
+    background: center/contain no-repeat url("/static/card1.jpg");
+}
+
+#card2 {
+    text-align: center;
+    background: center/contain no-repeat url("/static/card2.png");
+}
+
+#card3 {
+    text-align: center;
+    background: center/contain no-repeat url("/static/card3.jpg");
+}
+
+#forms {
+    background-color: burlywood;
+    background: center/cover no-repeat url("/static/img.jpg");
+    height: 700px;
+}
+
+#style {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 30px;
+}
+
+.foot {
+    margin-left: 50px;
+    padding: 20px;
+}
+
