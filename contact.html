@@ -372,3 +372,377 @@
 </body>
 
 </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOST AND FOUND</title>
+        <style>
+            #body {
+                background-color: rgb(230, 230, 150);
+                margin: 0px;
+                padding: 0px;
+            }
+
+            header::before {
+                background: url('https://media.istockphoto.com/photos/phone-and-email-icons-on-wooden-cubes-with-contact-us-text-on-blue-picture-id1271752802?b=1&k=20&m=1271752802&s=170667a&w=0&h=sMEPVY49FAy2UHkhyQLWDHlAhYsR2F2NDkNlSEteO3s=') no-repeat center center/cover;
+                content: "";
+                position: absolute;
+                top: 150px;
+                left: 0px;
+                width: 100%;
+                height: 300px;
+                z-index: -1;
+                opacity: 0.6;
+            }
+
+            .about {
+                color: black;
+                font-size: 50px;
+                font-weight: bold;
+                font-family: cursive;
+                text-align: center;
+                background-color: white;
+
+            }
+
+            .navbar {
+                background-color: black;
+                border: 5px solid black;
+                position: sticky;
+                top: 0px;
+
+            }
+
+
+            .navbar ul {
+                overflow: auto;
+            }
+
+            .navbar li {
+                float: left;
+                list-style: none;
+                padding: inherit;
+
+            }
+
+            .navbar a:hover {
+                color: red;
+            }
+
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                margin: auto;
+            }
+
+            .search {
+                float: right;
+            }
+
+            .input {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+                border: 10px solid black;
+                position: absolute;
+                top: 200px;
+                left: 150px;
+                height: 600px;
+                width: 1000px;
+            }
+
+            .items {
+                margin: 30px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            .box {
+                height: 30px;
+                width: 300px;
+                border: 2px solid black;
+                position: absolute;
+                left: 200px;
+            }
+
+            #box2 {
+                height: 30px;
+                width: 100px;
+                background-color: green;
+                left: 600px;
+            }
+
+            .box1 {
+                height: 200px;
+                width: 600px;
+                border: 2px solid black;
+                position: absolute;
+                left: 300px;
+                color: black;
+            }
+
+            .footer {
+                position: absolute;
+                top: 900px;
+                background-color: black;
+                color: white;
+                width: 100%;
+
+            }
+        </style>
+
+    </head>
+
+    <body id="body">
+        <header class="about">CONTACT US</header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="nav.html">HOME</li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <div class="search">SEARCH</div>
+                <div class="search"><input type="text" name="search" placeholder="search"></input></div>
+            </ul>
+        </nav>
+        <div class="input">
+            <div class="items">
+                NAME <input type="text" class="box" placeholder="NAME"></input></div>
+            <div class="items">
+                PHONE <input type="text" class="box" placeholder="PHONE"></input></div>
+            <div class="items">
+                E-MAIL <input type="text" class="box" placeholder="E-MAIL"></input></div>
+            <div class="items">
+                FREE CONTENT <input type="text" class="box1" placeholder=" CONTENT"></input></div>
+            <div class="items">
+                <input type="submit" id="box2" placeholder="SEND" name="SEND"></input>
+            </div>
+
+        </div>
+        <div class="footer">
+            <h3>CONTACT INFO</h4>
+                <h3>TEL: 9381213454</h3>
+                <h3>EMAIL: vaishnavi.2024it1009@kiet.edu</h3>
+        </div>
+        <script>
+            let box2 = document.getElementById('box2');
+            box2.addEventListener("click", function () {
+                let con = confirm("SUBMIT"); if (con == true) {
+                    alert("YOUR REQUEST HAS BEEN SUBMITED.")
+                }
+                else {
+                    alert("YOUR REQUEST HAS NOT BEEN SUBMITTED");
+                }
+            });
+
+
+
+        </script>
+
+    </body>
+
+    </html>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOST AND FOUND</title>
+        <style>
+            #body {
+                background-color: rgb(230, 230, 150);
+                margin: 0px;
+                padding: 0px;
+            }
+
+            header::before {
+                background: url('https://media.istockphoto.com/photos/phone-and-email-icons-on-wooden-cubes-with-contact-us-text-on-blue-picture-id1271752802?b=1&k=20&m=1271752802&s=170667a&w=0&h=sMEPVY49FAy2UHkhyQLWDHlAhYsR2F2NDkNlSEteO3s=') no-repeat center center/cover;
+                content: "";
+                position: absolute;
+                top: 150px;
+                left: 0px;
+                width: 100%;
+                height: 300px;
+                z-index: -1;
+                opacity: 0.6;
+            }
+
+            .about {
+                color: black;
+                font-size: 50px;
+                font-weight: bold;
+                font-family: cursive;
+                text-align: center;
+                background-color: white;
+
+            }
+
+            .navbar {
+                background-color: black;
+                border: 5px solid black;
+                position: sticky;
+                top: 0px;
+
+            }
+
+
+            .navbar ul {
+                overflow: auto;
+            }
+
+            .navbar li {
+                float: left;
+                list-style: none;
+                padding: inherit;
+
+            }
+
+            .navbar a:hover {
+                color: red;
+            }
+
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                margin: auto;
+            }
+
+            .search {
+                float: right;
+            }
+
+            .input {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+                border: 10px solid black;
+                position: absolute;
+                top: 200px;
+                left: 150px;
+                height: 600px;
+                width: 1000px;
+            }
+
+            .items {
+                margin: 30px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            .box {
+                height: 30px;
+                width: 300px;
+                border: 2px solid black;
+                position: absolute;
+                left: 200px;
+            }
+
+            #box2 {
+                height: 30px;
+                width: 100px;
+                background-color: green;
+                left: 600px;
+            }
+
+            .box1 {
+                height: 200px;
+                width: 600px;
+                border: 2px solid black;
+                position: absolute;
+                left: 300px;
+                color: black;
+            }
+
+            .footer {
+                position: absolute;
+                top: 900px;
+                background-color: black;
+                color: white;
+                width: 100%;
+
+            }
+        </style>
+
+    </head>
+
+    <body id="body">
+        <header class="about">CONTACT US</header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="nav.html">HOME</li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <div class="search">SEARCH</div>
+                <div class="search"><input type="text" name="search" placeholder="search"></input></div>
+            </ul>
+        </nav>
+        <div class="input">
+            <div class="items">
+                NAME <input type="text" class="box" placeholder="NAME"></input></div>
+            <div class="items">
+                PHONE <input type="text" class="box" placeholder="PHONE"></input></div>
+            <div class="items">
+                E-MAIL <input type="text" class="box" placeholder="E-MAIL"></input></div>
+            <div class="items">
+                FREE CONTENT <input type="text" class="box1" placeholder=" CONTENT"></input></div>
+            <div class="items">
+                <input type="submit" id="box2" placeholder="SEND" name="SEND"></input>
+            </div>
+
+        </div>
+        <div class="footer">
+            <h3>CONTACT INFO</h4>
+                <h3>TEL: 9381213454</h3>
+                <h3>EMAIL: vaishnavi.2024it1009@kiet.edu</h3>
+        </div>
+        <script>
+            let box2 = document.getElementById('box2');
+            box2.addEventListener("click", function () {
+                let con = confirm("SUBMIT"); if (con == true) {
+                    alert("YOUR REQUEST HAS BEEN SUBMITED.")
+                }
+                else {
+                    alert("YOUR REQUEST HAS NOT BEEN SUBMITTED");
+                }
+            });
+
+
+
+        </script>
+
+    </body>
+
+    </html>
+</body>
+
+</html>
